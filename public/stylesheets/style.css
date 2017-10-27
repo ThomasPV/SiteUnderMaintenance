@@ -37,13 +37,18 @@
  
 
     
-}
+    }
     
 .pimg1 {
-  background-image:url('/images/2.jpeg') !important;
- transition: all ease 0.5s !important;
-}
+      background-image:url('/images/2.jpeg') !important;
+     transition: all ease 0.5s !important;
+    }
     
+#subContactTitle{
+
+       border-right: none !important;  
+    }
+
 }
 
 
