@@ -1,6 +1,106 @@
 extends layout
 
 block content
-  h1= "Peedikayil"
-  h3 Prakash Thomas Varghese
-  
+    
+    .pimg1
+        #neobar.navbar-inverse
+            .navbar-header
+                .row
+                    .col-xs-7.col-sm-12#brandyDiv
+                        a#moonLink.navbar-brand(style="cursor:pointer" data-toggle='collapse' data-target='#myNavbar')
+                                        #brandy
+                                            strong PDkaYil
+                    .col-xs-4
+                        button#toggleButton.navbar-toggle.pull-right(type='button', data-toggle='collapse', data-target='#myNavbar')
+                              span.icon-bar
+                              span.icon-bar
+                              span.icon-bar
+
+                        
+            .container
+                #myNavbar.collapse.navbar-collapse
+                    ul.nav.navbar-nav
+                            li
+                                a#nameLink(href="#") Prakash Thomas Varghese
+                    
+                    ul#right.nav.navbar-nav.navbar-right
+                        li 
+                            a(href="#")
+                                h5
+                                    i.fa.fa-home.fa-lg
+                        li
+                            a(href="#")
+                                h5 About me
+                        li
+                            a(href="#")
+                                h5 Contact
+        
+        br
+        br
+        br
+        
+        .ptext
+            span.border 
+    .container
+        .row#abilitiesTitle
+            #icon.col-xs-5
+                img#abilitiesImage.pull-right(src="/images/ninjaAb.gif")
+            #subHeader.col-xs-6
+                    h2 My Abilities
+        .card#abilities
+            .row
+                .col-xs-5.col-xs-offset-1.col-sm-3.col-md-2.col-sm-offset-2
+                    img(src="/images/mongodb.png")
+                .col-xs-6.col-sm-3.col-md-2
+                    img(src="/images/express.png")
+                .col-xs-5.col-xs-offset-1.col-sm-offset-0.col-sm-3.col-md-2
+                    img(src="/images/angular4.png")
+                .col-xs-6.col-sm-3.col-md-2.col-sm-offset-2.col-md-offset-0
+                    img(src="/images/nodejs.png")
+                .col-xs-5.col-xs-offset-1.col-sm-3.col-sm-offset-0.col-md-2.col-md-offset-2
+                    img(src="/images/ionic.png")
+                .col-xs-6.col-sm-3.col-md-2
+                    img(src="/images/bootstrap.png")
+                .col-xs-5.col-xs-offset-1.col-sm-3.col-md-2.col-sm-offset-2.col-md-offset-0
+                    img(src="/images/firebase.png")
+                .col-xs-6.col-sm-3.col-md-2
+                    img(src="/images/kraken.png")
+                .col-xs-5.col-xs-offset-1.col-sm-offset-0.col-sm-3.col-md-2.col-md-offset-2
+                    img(src="/images/github.png")
+                .col-xs-6.col-sm-3.col-md-2.col-sm-offset-2.col-md-offset-0
+                    img(src="/images/passportjs.png")
+                .col-xs-5.col-xs-offset-1.col-sm-offset-0.col-sm-3.col-md-2
+                    img(src="/images/oauth2.jpg")
+                .col-xs-6.col-sm-3.col-md-2
+                    img(src="/images/ssh.jpg")
+                .col-xs-5.col-xs-offset-1.col-sm-3.col-md-2.col-md-offset-2.col-sm-offset-2
+                    img(src="/images/ssl.png")
+            
+    .pimg3
+    .row#contact
+            #subContactTitle.col-xs-12.col-sm-12.col-md-4
+                #contactTitle
+                    h3.text-center Get in touch.
+            
+            .col-xs-12.col-sm-12.col-md-4#subContactDetails
+                .row
+                    .col-sm-12
+                        p
+                         span.fa.fa-envelope
+                            strong  Email : 
+                    .col-sm-12
+                        p  ptvx007@gmail.com
+                br
+                .row
+                    .col-sm-12
+                        p
+                         span.fa.fa-address-book
+                            strong  Address : 
+                    .col-sm-12
+                        p  Kharghar, Navi Mumbai,
+                        p  Pincode : 410210
+                        p  Maharashtra
+            .col-xs-12.col-sm-12.col-md-4#subContact
+                img#subContactGoogle.img-responsive(src="/images/google.jpg")
+
+   
