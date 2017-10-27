@@ -15,7 +15,7 @@
         }
     .pimg1 #neobar{
         
-        background: rgba(0,0,0,0.5) !important;
+        background: rgba(0,0,0,0.8) !important;
         height: 70px ;
         
     }
@@ -31,12 +31,17 @@
     font-size: 1.5em !important;
     font-weight: 30 !important;
     padding: 20px 0px !important;
-    color: rgba(255,200,55,1) !important;
+    color: rgba(255,80,55,1) !important;
 
 
  
 
     
+}
+    
+.pimg1 {
+  background-image:url('/images/2.jpeg') !important;
+ transition: all ease 0.5s !important;
 }
     
 }
@@ -106,14 +111,14 @@
 
 #abilities{
     
-    border-left: 20px solid rgba(255,200,55,0.9);  
-     border-right: 20px solid rgba(255,200,55,0.9);  
+    border-left: 20px solid rgba(255,80,55,0.9);  
+     border-right: 20px solid rgba(255,80,55,0.9);  
 }
 
 #abilitiesTitle{
 margin-top: 5px;
-background:  rgba(255,200,55,0.9);   
-border-bottom: solid 6px rgba(255,200,55,0.9);
+background:  rgba(255,80,55,0.9);   
+border-bottom: solid 6px rgba(255,80,55,0.9);
 border-radius: 1%;
     
 }
@@ -244,9 +249,9 @@ outline:none !important;
     position: relative;
     font-size: 0.9em;
     top: -15px;
-    background: rgba(255,255,200,1);
+    background: rgba(255,80,50,1);
     transition: all ease 0.5s;
-    color: #777;
+    color: #fff;
 
  
 
@@ -271,7 +276,7 @@ outline:none !important;
     font-size: 1.5em;
     font-weight: 30;
     padding: 20px 0px;
-    color: rgba(255,200,55,1);
+    color: rgba(255,80,55,1);
     transition: all ease 0.5s;
 }
 
@@ -315,29 +320,18 @@ outline:none !important;
 }
 
 
-.pimg1 .jumbotron{
 
-  background: rgba(150,150,150, 0.3 );
-    color: #fff;
-    
-}
-
-.pimg1 .jumbotron h1{
-
-    font-size: 12em;
-    
-}
 
 .pimg1 {
-  background-image:url('/images/1.jpg');
+  background-image:url('/images/1.jpeg');
 background-size: cover;
 background-attachment: fixed;
-
+transition: all ease 0.4s;
 min-height: 100%;
 
 }
 .pimg2 {
-  background-image:url('/images/2.jpg');
+  background-image:url('/images/2.jpeg');
 min-height: 400px;
 background-size: cover;
 background-attachment: fixed;
@@ -351,45 +345,38 @@ background-attachment: fixed;
     
 }
 
-.pimg1 {
-  background-image:url('/images/1.jpg');
-background-size: cover;
-background-attachment: fixed;
 
-min-height: 600px;
-
-}
 
 
 #contact{
     
-   background:  rgba(255,200,55,0.2); 
+   background:  rgba(240,190,85,0.1); 
     margin: 10px 10px;
     
 }
 
 #subContactTitle{
     
-   border-right: dotted 2px rgba(255,200,55,0.9);  
+   border-right: dotted 2px rgba(255,80,55,0.9);  
 }
 
 #contactTitle{
     margin: 15px auto;
     padding: 5px;
-    background:  rgba(255,200,55,0.9);   
-    border-bottom: solid 6px rgba(255,200,55,0.9);
+    background:  rgba(255,80,55,0.9);   
+    border-bottom: solid 6px rgba(255,80,55,0.9);
     border-radius: 1%;
     width:230px;
     transition: all ease 0.5s;
 }
 
 .fa-envelope{
-    color: rgba(255,150,55,0.9);
+    color: rgba(255,80,55,0.9);
 }
 
 .fa-address-book{
     
-    color: rgba(255,150,55,1);
+    color: rgba(255,80,55,1);
 }
 
 #subContactDetails{
