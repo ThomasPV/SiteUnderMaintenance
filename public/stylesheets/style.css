@@ -13,6 +13,31 @@
         background: rgba(0,0,0,0.8);
         transition: all ease .5s;
         }
+    .pimg1 #neobar{
+        
+        background: rgba(0,0,0,0.5) !important;
+        height: 70px ;
+        
+    }
+    #brandy{
+    
+    height:70px;
+    width: 70px;
+    margin: 0px 0px 30px 8px !important;
+    transition: all ease 0.5s !important;
+
+    
+    background: transparent !important;
+    font-size: 1.5em !important;
+    font-weight: 30 !important;
+    padding: 20px 0px !important;
+    color: rgba(255,200,55,1) !important;
+
+
+ 
+
+    
+}
     
 }
 
@@ -138,13 +163,14 @@ body, html {
 
 
 .navbar-inverse .navbar-toggle{
-    margin-top: 10px;
+    margin-top: 12px;
     background-color: rgba(0,0,0,0.5);
     border-radius: 30%;
     height: 40px;
 
     
 }
+
 
 #brandImage{
     
@@ -164,16 +190,11 @@ body, html {
     
 }
 
-.fa-snowflake-o{
-    
-    color: #fff;
-    
-}
 
 
 
 #neobar{
-    height: 70px;
+    height: 100px;
     width:100%;
     min-width: 160px;
     overflow: hidden;
@@ -223,9 +244,9 @@ outline:none !important;
     position: relative;
     font-size: 0.9em;
     top: -15px;
-    background: rgba(255,200,55,0.9);
+    background: rgba(255,255,200,1);
     transition: all ease 0.5s;
-    color: #fff;
+    color: #777;
 
  
 
@@ -233,9 +254,15 @@ outline:none !important;
 }
 
 #brandyDiv{
-    
+    margin-top: 3px;
     margin-left: 25px;
     margin-right: -20px;
+    
+}
+
+.navbar-header .row #brandyDiv .scrollChange{
+    margin-top: 10px !important;
+
     
 }
 #brandy.moon{
@@ -243,10 +270,11 @@ outline:none !important;
     background: transparent;
     font-size: 1.5em;
     font-weight: 30;
-    padding: 23px 0px;
+    padding: 20px 0px;
     color: rgba(255,200,55,1);
     transition: all ease 0.5s;
 }
+
 
 
 

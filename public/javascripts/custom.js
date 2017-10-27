@@ -1,5 +1,6 @@
 $(document).ready(function(){
     var clicked = false;
+    var scrolled = false;
     setTimeout(function(){
         
         $('#brandImage').addClass('showItem');
@@ -14,14 +15,23 @@ $(document).ready(function(){
             
             $('#neobar').addClass('shrink');
             $('#brandy').addClass('moon');
-            
+            scrolled = true;
+            $('#brandyDiv').addClass('.scrollChange');
             
             
         }else{
             
             $('#neobar').removeClass('shrink');
-            $('#brandy').removeClass('moon');
+            $('#toggleButton').removeClass('.moonToggle');
+            $('#brandyDiv').removeClass('.scrollChange');
             
+            scrolled = false;
+            
+            if(!clicked){
+                
+              $('#brandy').removeClass('moon');
+                
+            }
            
             
    
@@ -45,10 +55,14 @@ $(document).ready(function(){
          $('#neobar').addClass('click');
         $('#neobar').addClass('shrinked');
             
+        $('#brandy').addClass('moon');
+            
         }else{
             
            $('#neobar').removeClass('click'); 
             $('#neobar').removeClass('shrinked');
+            if(!scrolled){$('#brandy').removeClass('moon');}
+            
         }
         
         
